@@ -55,7 +55,7 @@ body {
 
 /* ======== COMMON CSS END ======== */
 
-  /* -------------------- */
+  /* ======== navber CSS START ======== */
 
 .customLogo{
   background: var(--primary_background_color);
@@ -111,7 +111,9 @@ body {
   opacity: 1;
 }
 
-/* ------------------------ */
+/* ======== navber CSS END ======== */
+
+/* ======== banner CSS START ======== */
 #banner_about{
   padding: 128px 0;
   background: var(--white_color);
@@ -140,7 +142,9 @@ body {
   margin: 24px 0 48px;
 }
 
-/* ---------------------- */
+/* ======== banner CSS END ======== */
+
+/* ======== Goul CSS START ======== */
 
 #goul{
   padding: 0 0 128px;
@@ -172,7 +176,9 @@ body {
   line-height: 28px;
 }
 
-/* --------------------- */
+/* ======== Goul CSS END ======== */
+
+/* ======== Follow CSS START ======== */
 
 #follow{
   padding: 0 0 128px;
@@ -200,7 +206,9 @@ body {
   color: #282938;
 }
 
-/* --------------------- */
+/* ======== Follow CSS END ======== */
+
+/* ======== Follow__part CSS START ======== */
 
 #follow__part{
   padding: 128px 0;
@@ -210,135 +218,10 @@ body {
 .follow--modifier{
   font-size: 38px;
 }
-/* --------------------- */
 
-#work{
-  padding: 128px 0;
-  background: #F4F6FC;
-}
+/* ======== Follow__part CSS END ======== */
 
-.work__heading{
-  font-weight: 600;
-  font-size: 48px;
-  color: var(--secoendary_font_colar);
-}
-
-.work__summary{
-  font-weight: 400;
-  font-size: 16px;
-  color: var(--secoendary_font_colar);
-  line-height: 28px;
-  margin: 16px 0;
-}
-
-.work__icon{
-  font-weight: 500;
-  font-size: 18px;
-  color: #2405F2;
-}
-
-.right{
-  color: #2405F2;
-  margin-left: 10px;
-}
-
-.workright__heading{
-  font-weight: 500;
-  font-size: 32px;
-  color: var(--secoendary_font_colar);
-  line-height: 48px;
-  margin: 16px 0 8px;
-}
-
-.workright__summary{
-  font-weight: 400;
-  font-size: 16px;
-  color: var(--secoendary_font_colar);
-  line-height: 28px;
-}
-
-/* ---------------------- */
-
-#project{
-  padding: 128px 0;
-  background: var(--background_color_white);
-}
-
-.projectTop__heading{
-  font-weight: 600;
-  font-size: 48px;
-  color: var(--secoendary_font_colar);
-}
-
-.projectTop__icon{
-  font-weight: 500;
-  font-size: 16px;
-  color: var(--secoendary_font_colar);
-}
-
-.image{
-  position: relative;
-  cursor: grab;
-  overflow: hidden;
-}
-
-.projectoverlay{
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  top: 0;
-  left: -50%;
-  background: #c2c4d692;
-  transition: all linear .3s;
-  background-image: linear-gradient(1deg, rgba(28, 30, 83, 0.99), rgba(28, 30, 83, 0.40));
-}
-
-.image:hover .projectoverlay{
-  left: 0%;
-}
-
-.overlay__content{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  height: 100%;
-  justify-content: flex-end;
-  padding: 0 55px 76px 48px;
-}
-
-.overlay_heading{
-  font-weight: 600;
-  font-size: 24px;
-  color: #fff;
-  line-height: 36px;
-}
-.overlay_summary{
-  font-weight: 500;
-  font-size: 16px;
-  color: #fff;
-  line-height: 28px;
-  margin: 16px 0 40px;
-}
-
-.right--modifier{
-  vertical-align: middle;
-  margin-left: 10px;
-}
-
-.content--modifier{
-  padding: 0 79px 56px 45px;
-}
-
-.overlay--modifier{
-  width: 100%;
-  left: -100%;
-}
-
-.heading--modifire{
-  margin-bottom: 8px;
-}
-
-/* -------------------- */
+/* ======== Working part CSS START ======== */
 
 #workingPart{
   padding: 128px 0;
@@ -385,7 +268,9 @@ body {
   color: #282938;
 }
 
-/* ------------------- */
+/* ======== Working part CSS End ======== */
+
+/* ======== team CSS start ======== */
 
 #team{
   padding: 128px 0;
@@ -459,7 +344,10 @@ body {
   color: #282938;
   margin-top: 10px;
 }
-/* ------------------- */
+
+/* ======== team CSS end ======== */
+
+/* ======== footer CSS start ======== */
 
 footer{
   padding: 96px 0 0;
@@ -514,7 +402,9 @@ footer{
   margin-right: 26px;
 }
 
-/* -------------------- */
+/* ======== footer CSS end ======== */
+
+/* ======== footer navber CSS start ======== */
 
 .custom{
   font-weight: 500;
@@ -530,6 +420,6 @@ footer{
   color: #282938;
 }
 
-/* ---------------------- */
+/* ======== footer navber CSS end ======== */
 
 
