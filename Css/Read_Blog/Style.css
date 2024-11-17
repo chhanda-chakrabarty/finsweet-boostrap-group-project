@@ -55,6 +55,8 @@ body {
 
 /* ======== COMMON CSS END ======== */
 
+/* ======== Navber CSS START ======== */
+
 .customLogo{
   background: var(--primary_background_color);
   padding: 15px 0;
@@ -109,7 +111,9 @@ body {
   opacity: 1;
 }
 
-/* ---------------------- */
+/* ======== Navber CSS END ======== */
+
+/* ======== Banner CSS START ======== */
 
 #bannerPart{
   padding: 128px 0 48px;
@@ -137,7 +141,9 @@ body {
   margin-bottom: 48px;
 }
 
-/* ------------------- */
+/* ======== Banner CSS END ======== */
+
+/* ======== Lorem CSS START ======== */
 
   #lorem{
     padding: 0 0 40px;
@@ -194,7 +200,9 @@ body {
     background: var(--white_color);
   }
 
-/* ------------------- */
+  /* ======== Lorem CSS END ======== */
+
+/* ======== Footer CSS START ======== */
 
 footer{
   padding: 96px 0 0;
@@ -244,7 +252,9 @@ footer{
   margin-right: 26px;
 }
 
-/* -------------------- */
+/* ======== Fotter CSS END ======== */
+
+/* ======== Navber Footer CSS START ======== */
 
 .custom{
   font-weight: 500;
@@ -259,4 +269,6 @@ footer{
   line-height: 28px;
   color: #282938;
 }
+
+/* ======== Navber Fotter CSS END ======== */
 
