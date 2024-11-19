@@ -94,21 +94,6 @@ body {
 .customNavLink:hover {
   color: white;
 }
-/* .customActive::after {
-  position: absolute;
-  content: "";
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  height: 2px;
-  border-radius: 50px;
-  background-color: var(--yellow_color);
-  transition: var(--transition);
-} */
-/* .customActive {
-  color: white;
-} */
 .customBtn {
   color: white;
   border: 2px solid #f4f6fc50;
