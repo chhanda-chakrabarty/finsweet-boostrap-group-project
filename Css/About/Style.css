@@ -54,3 +54,372 @@ body {
 }
 
 /* ======== COMMON CSS END ======== */
+
+  /* ======== navber CSS START ======== */
+
+.customLogo{
+  background: var(--primary_background_color);
+  padding: 15px 0;
+}
+
+.customnavitem{
+  font-weight: 500;
+  font-size: 16px;
+  color: #BBBBCB;
+  margin-left: 45px;
+  transition: all linear .4s;
+}
+
+.customnavitem:hover{
+  color: #fff;
+}
+
+.active{
+  color: #fff;
+}
+
+.custombtn{
+  padding: 16px 48px;
+  background: transparent;
+  border: 2px solid #F4F6FC;
+  outline: 0;
+  border-radius: 41px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 116px;
+  position: relative;
+  z-index: 1;
+}
+
+.custombtn::after{
+  position: absolute;
+  content: " ";
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: ease-in-out .4s;
+  opacity: 0;
+  border-radius: 41px;
+}
+
+.custombtn:hover::after{
+  width: 100%;
+  background: #FCD980;
+  opacity: 1;
+}
+
+/* ======== navber CSS END ======== */
+
+/* ======== banner CSS START ======== */
+#banner_about{
+  padding: 128px 0;
+  background: var(--white_color);
+}
+
+.about__title{
+  font-weight: 500;
+  font-size: 18px;
+  color: #282938;
+  margin-bottom: 8px;
+}
+
+.banner_heading{
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74px;
+  color: #282938;
+  margin-bottom: 8px;
+}
+
+.banner_summary{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  margin: 24px 0 48px;
+}
+
+/* ======== banner CSS END ======== */
+
+/* ======== Goul CSS START ======== */
+
+#goul{
+  padding: 0 0 128px;
+  background: var(--white_color);
+}
+
+.goulContent{
+  padding: 80px 109px 80px 79px;
+  background: #F4F5F5;
+}
+
+.goul__heading{
+  font-weight: 500;
+  font-size: 16px;
+  color: #282938;
+}
+
+.goul__title{
+  font-weight: 600;
+  font-size: 38px;
+  color: #282938;
+  margin: 5px 0 16px;
+}
+
+.goul__summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+  line-height: 28px;
+}
+
+/* ======== Goul CSS END ======== */
+
+/* ======== Follow CSS START ======== */
+
+#follow{
+  padding: 0 0 128px;
+  background: var(--white_color);
+}
+
+.follow__heading{
+  font-weight: 600;
+  font-size: 48px;
+  color: #282938;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.follow__title{
+  margin: 32px 0 8px;
+  font-weight: medium;
+  font-size: 24px;
+  color: #282938;
+}
+
+.follow__summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+}
+
+/* ======== Follow CSS END ======== */
+
+/* ======== Follow__part CSS START ======== */
+
+#follow__part{
+  padding: 128px 0;
+  background: var(--gray_color);
+}
+
+.follow--modifier{
+  font-size: 38px;
+}
+
+/* ======== Follow__part CSS END ======== */
+
+/* ======== Working part CSS START ======== */
+
+#workingPart{
+  padding: 128px 0;
+  background: var(--white_color);
+}
+
+.featureTop_summary{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #282938;
+  margin-top: 10px;
+}
+
+.featurebottom{
+  padding: 58px 32px 48px 48px;
+  background: var(--gray_color);
+}
+
+.featurebottom_heading{
+  font-weight: 500;
+  font-size: 24px;
+  color: #282938;
+  margin-top: 22px;
+}
+
+.featurebottom_summary{
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 12px;
+  color: #282938;
+  line-height: 28px;
+}
+
+.work_item{
+  font-weight: 600;
+  font-size: 38px;
+  color: #282938;
+}
+
+.work_details{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+}
+
+/* ======== Working part CSS End ======== */
+
+/* ======== team CSS start ======== */
+
+#team{
+  padding: 128px 0;
+  background: var(--gray_color);
+}
+
+.team__heading{
+  font-weight: 600;
+  font-size: 48px;
+  color: #282938;
+}
+
+.teambox{
+  max-width: 296px;
+  height: 344px;
+  background: #ffffff;
+  transition: all linear .5s;
+}
+
+.elepsbox{
+  height: 168px;
+  width: 168px;
+  position: relative;
+  z-index: 1;
+  padding: 48px 64px 0 64px;
+}
+
+.teamOverlay {
+  position: absolute;
+  top: 29%;
+  left: 38%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.teambox:hover .elepsbox .teamOverlay{
+  background-image: linear-gradient(1deg, rgba(28, 30, 83, 1.90), rgba(28, 30, 83, 0.0));
+}
+
+.team_icon{
+  margin-top: 127px;
+  text-align: center;
+  opacity: 0;
+  transition: all linear .5s;
+}
+
+.teambox:hover .elepsbox .team_icon {
+  opacity: 1;
+}
+
+.team_icon a i{
+  color: #fff;
+  margin: 0 5px;
+}
+
+.text{
+  margin-top: 70px;
+  text-align: center;
+}
+
+.teambox_heading{
+  font-weight: 500;
+  font-size: 24px;
+  color: #1D2130;
+}
+
+.teambox_summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+  margin-top: 10px;
+}
+
+/* ======== team CSS end ======== */
+
+/* ======== footer CSS start ======== */
+
+footer{
+  padding: 96px 0 0;
+  background: var(--primary_background_color);
+}
+
+.fotter__sumary{
+  max-width: 399px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--gray_color);
+  margin-top: 20px;
+}
+
+.foter__botom{
+  background: #FCD980;
+  margin-top: 86px;
+  padding: 14px 0px 14px 30px;
+}
+
+.footerBotom{
+  font-weight: 500;
+  font-size: 16px;
+  color: #282938;
+}
+.footerBotom_summary{
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+  margin-top: 8px;
+}
+
+.foterRight{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #fff;
+}
+
+.summary--modifier{
+  font-weight: 400;
+  margin-top: 14px;
+}
+
+.icon{
+  margin-top: 100px;
+}
+
+.icon i{
+  color: #fff;
+  margin-right: 26px;
+}
+
+/* ======== footer CSS end ======== */
+
+/* ======== footer navber CSS start ======== */
+
+.custom{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+}
+
+.customnavitam{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #282938;
+}
+
+/* ======== footer navber CSS end ======== */
+
+
