@@ -3,7 +3,7 @@
 :root {
   --primary_background_color: #1c1e53;
   --white_color: #ffffff;
-  --gray_color: #bbbbcb;
+  --gray_color: #EEF4FA;
   --primary_font_color: #282938;
   --yellow_color: #fcd980;
 
@@ -88,7 +88,13 @@
   padding: 54px 0;
 }
 
+.elepsbox{
+  padding: 48px 64px 0 64px;
+}
 
+.teamOverlay {
+	left: 39%;
+}
 
 footer {
   padding: 70px 0 0;

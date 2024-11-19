@@ -3,7 +3,7 @@
 :root {
   --primary_background_color: #1c1e53;
   --white_color: #ffffff;
-  --gray_color: #bbbbcb;
+  --gray_color: #EEF4FA;
   --primary_font_color: #282938;
   --yellow_color: #fcd980;
 
@@ -96,7 +96,18 @@
 
 #team {
   padding: 12px 0;
-  display: none;
+}
+
+.teamOverlay {
+	left: 35%;
+}
+
+.team__heading {
+  margin-bottom: 15px;
+}
+
+.elepsbox {
+  padding: 48px 53px 0 60px;
 }
 
 .custom {

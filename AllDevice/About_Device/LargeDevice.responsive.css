@@ -3,7 +3,7 @@
 :root {
   --primary_background_color: #1c1e53;
   --white_color: #ffffff;
-  --gray_color: #bbbbcb;
+  --gray_color: #EEF4FA;
   --primary_font_color: #282938;
   --yellow_color: #fcd980;
 
@@ -91,7 +91,7 @@
 }
 
 .teamOverlay {
-  left: 12%;
+	left: 12%;
 }
 
 .teambox_heading {
